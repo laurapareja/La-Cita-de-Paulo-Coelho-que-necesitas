@@ -1,6 +1,5 @@
 'use strict';
 debugger
-
 const citaCoelho = new Array(10)
 citaCoelho[0] = "./assets/images/cita1.png";
 citaCoelho[1] = "./assets/images/cita2.jpg";
@@ -22,8 +21,6 @@ function choosepicture(event) {
         const randomNumber = parseInt(Math.random() * (max - min) + min);
         return randomNumber;
     }
-
-
 };
 
 const button = document.querySelector('.js-button');
